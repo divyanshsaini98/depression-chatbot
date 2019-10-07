@@ -1,30 +1,10 @@
-Sentiment Analysis of Chatbot
+The chatbot works by executing bot.py
+I have uploaded all the files except two models which are greater than 25MB and weren't able to upload using git bash commands due to some errors.
+I'm uploading the remaining files on google drive and attaching the link here. 
+They have to be downloaded and pasted in the folder /back in my repository.
 
-Identify and extract sentiment in given string. Sentiment analysis (also known as opinion mining) refers to the use of natural language processing, text analysis and computational linguistics to identify and extract subjective information in source materials. This algorithm takes an input string and assigns a sentiment rating in the range [-1 to 1] (very negative to very positive).
+https://drive.google.com/file/d/1atSGNzKh4lZPdcMdQdNz6u3_YF8aHiCb/view?usp=drive_web
+https://drive.google.com/file/d/1c9U1nyzw6X83HzbDAZ9DNe0qcrv6a_77/view?usp=drive_web
 
-Clone Slack’s Python bot kit, which has everything  needed to run a bot using the RTM API.
-cd python-rtmbot
-and then…
-pip install -r requirements.txt
-This will install all our dependencies for Slack’s RTM. We then need to install the Algorithmia Python client.
-pip install Algorithmia
-Next, copy the example config file to our root directory like this:
-cp docs/example-config/rtmbot.conf .
-Add our Slack token to the file. Since we’re here, let’s also add the Algorithmia key, too.
-Once  bot is up and running, go to  Slack team, and invite it to a channel. Every message – except for channel joins – will now flow through your plugin, and then the Social Sentiment Analysis algorithm.
-Try it out by typing a few nice things. Then check  terminal:
-Comment "i think you’re great" was positive, compound result 0.6249
-Now type some really terrible things, like:
-Comment "idiot dumb" was negative, compound result -0.7
-It uses the algorithm  https://algorithmia.com/algorithms/nlp/SocialSentimentAnalysis to analyse a message in the Slack channel. The results from the analysis are in the form of:
-•	Negative
-•	Neutral
-•	Postitive
-For more detail check out the algorithm's page https://algorithmia.com/algorithms/nlp/SocialSentimentAnalysis.
-
-Tools Used:
-
-Python rtmbot
-Algorithmia’s Social Sentiment Analysis
-for more information
-https://github.com/chrishannam/marvin
+Thanking You,
+Divyansh Saini
