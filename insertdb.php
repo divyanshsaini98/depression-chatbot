@@ -13,6 +13,4 @@
      while($row=mysqli_fetch_array($result1))
         echo "<b>"."ID:".$row["ID"]."</b>"."<br>";
    header("refresh:10;url=index.html");
-   
-   
 ?>
