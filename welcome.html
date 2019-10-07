@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+<style>
+input[type="text"] {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 50px;
+  height: 5px; 
+}
+input[type="email"] {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 70px;
+  height: 5px; 
+}
+input[type="tel"] {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 70px;
+  height: 5px; 
+}
+input[type="number"] {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 30px;
+  height: 5px; 
+}
+input[type="submit"] {
+  text-align:center;border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 80px;
+  height: 3px; 
+}
+</style>
+<center>
+<body>
+<form method="post" action="insertdb.php">
+Name:</br>
+<input type="text" name="username"  required>
+</br>
+</br>
+</br>
+Email:</br><input type="email" name="email" required>
+</br>
+</br>
+</br>
+Contact number:</br><input type="tel" name="tel" required>
+</br>
+</br>
+</br>
+Age:</br><input type="number" name="age" min="5" max="100">
+</br></br></br>
+Emergency contact:</br><input type="tel" name="tel2" required>
+</br></br></br>
+<input type="Submit" value="Register"></br>
+
+</form>
+<form action="select.html">
+Already have an account?<input type="Submit" value="Sign up">
+</form>
+</body>
+</center>
+</html>
