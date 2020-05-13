@@ -201,7 +201,7 @@ try:
 except:
     name = name.split()[0]
 name = name[0].upper() + name[1:]
-print("Hi " + name + "! My name's Brad. Let's start with our session.")
+print("Hi " + name + "! My name's Nitte Counselor. Let's start with our session.")
 response = input("How are you doing?\n")
 if (predict(response) >= 0.55):
     response = input('That is good. Are you usually this happy, or are there '\
